@@ -1,3 +1,3 @@
 # hello-world
 starting
-trying the best to made my way trought this career
+trying the best to make my way trought this career
