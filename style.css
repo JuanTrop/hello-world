@@ -8,6 +8,13 @@
      border-width: 0.5px;*/
      
  }
+ /*
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}*/
 
 main {
     display:grid;
@@ -70,5 +77,29 @@ main {
      color: #f0c6ae;
  }
 
- /* Media query */
+ /* Media query for mobile responsive*/
+ @media only screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    main {
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .background img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 100%;
+    }
+  }
 
